@@ -1,0 +1,5 @@
+Daily Temp Analysis 
+1. input - store temp for seven days
+2. calc avg - sum of all temp & divide by no of days
+3. find max & min - loops to determine highest & lowest temp 
+4. count above avg - count how many temp are above calculated 
