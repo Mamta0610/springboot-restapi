@@ -1,0 +1,19 @@
+<hibernate-configuration>
+<session-factory>
+<property name="hbm2ddl.auto">update</property>
+<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+<property name="connection.url">jdbc:mysql://localhost:3306/anpc8001</property>
+<property name="connection.username">root</property>
+<property name="connection.password">root</property>
+<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property name="show_sql">true</property>
+<mapping class="com.anpc8001.entity.Student"/>
+<mapping class="com.anpc8001.entity.Admin"/>
+<mapping class="com.anpc8001.entity.Teacher"/>
+<mapping class="com.anpc8001.entity.Courses"/>
+<mapping class="com.anpc8001.entity.Batches"/>
+<mapping class="com.anpc8001.entity.Assessment"/>
+<mapping class="com.anpc8001.entity.Placement"/>
+
+</session-factory>
+</hibernate-configuration>
